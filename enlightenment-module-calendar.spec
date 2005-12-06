@@ -5,7 +5,7 @@ Summary:	Enlightenment DR17 module: %{_module_name}
 Name:		enlightenment-module-%{_module_name}
 Version:	0.04
 Release:	1
-License:	BSD-like
+License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://www.get-e.org/Resources/Modules/_files/%{_module_name}-%{version}.tar.gz
 # Source0-md5:	257052ad6fae56b82d782240832e2244
@@ -47,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING INSTALL README TODO
+%doc AUTHORS README TODO
 %dir %{_libdir}/enlightenment/modules_extra/%{_module_name}
 %dir %{_libdir}/enlightenment/modules_extra/%{_module_name}/linux-gnu-*
 %attr(755,root,root) %{_libdir}/enlightenment/modules_extra/%{_module_name}/linux-gnu-*/module.so
