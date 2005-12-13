@@ -1,7 +1,8 @@
-#
+
 %define		_module_name	calendar
 
 Summary:	Enlightenment DR17 module: %{_module_name}
+Summary(pl):	Modu³ Enlightenmenta DR17: kalendarz
 Name:		enlightenment-module-%{_module_name}
 Version:	0.04
 Release:	1
@@ -10,14 +11,20 @@ Group:		X11/Window Managers/Tools
 Source0:	http://www.get-e.org/Resources/Modules/_files/%{_module_name}-%{version}.tar.gz
 # Source0-md5:	257052ad6fae56b82d782240832e2244
 URL:		http://www.get-e.org/Resources/Modules/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	edje
 BuildRequires:	enlightenmentDR17-devel
+BuildRequires:	libtool
 BuildRequires:	sed >= 4.0
 Requires:	enlightenmentDR17
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Enlightenment DR17 module: simple calendar.
+
+%description -l pl
+Modu³ Enlightenmenta DR17: prosty kalendarz.
 
 %prep
 %setup -q -n %{_module_name}-%{version}
