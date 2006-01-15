@@ -4,12 +4,12 @@
 Summary:	Enlightenment DR17 module: %{_module_name}
 Summary(pl):	Modu³ Enlightenmenta DR17: kalendarz
 Name:		enlightenment-module-%{_module_name}
-Version:	0.04
+Version:	0.1.5
 Release:	1
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://www.get-e.org/Resources/Modules/_files/%{_module_name}-%{version}.tar.gz
-# Source0-md5:	257052ad6fae56b82d782240832e2244
+# Source0-md5:	34837154b1d22658e075c1b0894c1f88
 URL:		http://www.get-e.org/Resources/Modules/
 BuildRequires:	autoconf
 BuildRequires:	automake
