@@ -2,7 +2,7 @@
 %define		_module_name	calendar
 %define		_snap		20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl.UTF-8):   Moduł Enlightenmenta DR17: kalendarz
+Summary(pl.UTF-8):	Moduł Enlightenmenta DR17: kalendarz
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.4
 Release:	0.%{_snap}.1
